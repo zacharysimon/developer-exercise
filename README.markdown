@@ -60,4 +60,3 @@ You will need to implement the following functionality functionality.
 
  For more rules on blackjack please refer to the [wiki]()
  
-Please fork the repository, and email us at developers@watermelonexpress.com when you are finished.
