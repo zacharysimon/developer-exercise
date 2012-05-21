@@ -1,4 +1,4 @@
-Please complete following exercises, either ruby and(or) javascript.
+Please fork the repository, complete following exercises, either ruby and(or) javascript, and email us at developers@benchprep.com when you are finished.
 
 ## Javascript/Coffeescript
 
