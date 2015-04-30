@@ -5,26 +5,25 @@ If you have any questions feel free to email developers@benchprep.com
 
 ## Javascript/Coffeescript
 
-### Accordion 
+### Accordion
 
 In `accordion.html` you will find ACT course sections breakdown.
 
 Please, write code to simulate [jquery accordion](http://docs.jquery.com/UI/Accordion) plugin behavior with those sections.
 By default current setup comes with qunit, feel free to drop and use your own testing framework or write all your code as coffescript.
 
-### Nested Menu
+### Simple Backbone List
 
-In `menu.html` you will find `nestedMenu` structure that contains structure for nested menu that you need to build. Initially
-you will see `study`,`practice`,`test` headers. 
+In `quotes.html` you will need to build a simple backbone.js view to list given quotes.
 
 Please provide the following functionality:
 
- * Upon clicking one of the headers,menu is replaced with a different menu that has nested headers in accordance to the `nestedMenu` structure.
- Ex: clicking on `study` should display submenu headers `reading materials`, `flashcards` and hide `practice`, `test` options. 
+ * Fetch quotes from source [quotes.json](https://gist.githubusercontent.com/anonymous/8f61a8733ed7fa41c4ea/raw/1e90fd2741bb6310582e3822f59927eb535f6c73/quotes.json) and display available information in the list-like structure (table/list)
+ * Provide client-side pagination (up to 15 quotes per page)
+ * Optionally: Provide way to filter between game and movie quotes
+ * Optionally: Provide client-side search filter by the quote text
 
- * Please, provide a way to get back to the state of the headers you were coming from before the click
-
-Please, use your discretion in implementing nice-to-have features (things that you think that menu is missing and are not part of requirements).
+Please, use your discretion in implementing nice-to-have features (if interested).
 
 ## Ruby
 
@@ -40,7 +39,7 @@ Please, write a ruby api that for now takes a search string and returns 3 releva
 
 `blackjack.rb` contains initial work on blackjack simulation
 
-Please, use your discretion in fixing/adding tests. You are free to use/convert to any testing framework you want. 
+Please, use your discretion in fixing/adding tests. You are free to use/convert to any testing framework you want.
 You will need to implement the following functionality.
 
  * As a Player I can get a hand with two cards in it
@@ -49,17 +48,17 @@ You will need to implement the following functionality.
  * As a User I can bust (lose immediately) when I am getting cards
  * As a User I can blackjack (win immediately) when I am getting cards
  * As a Dealer I can draw cards after the player until I win or lose
- 
- 
- Bonus: 
- 
+
+
+ Bonus:
+
  * Simulate a random round of the game (you dont have to write educated user decision logic - it could be guesses)
 
  Rules:
- 
+
  * Bust - all possible hand values are greater than 21 points
  * Blackjack - any possible hand value is exactly 21 point
  * Assume dealer stays on 17 (any hand value)
 
  For more rules on blackjack please refer to the [wiki]()
- 
+
