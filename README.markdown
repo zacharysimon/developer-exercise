@@ -14,11 +14,11 @@ By default current setup comes with qunit, feel free to drop and use your own te
 
 ### Simple Backbone List
 
-In `quotes.html` you will need to build a simple backbone view to list given quotes.
+In `quotes.html` you will need to build a simple backbone.js view to list given quotes.
 
 Please provide the following functionality:
 
- * Fetch quotes from https://gist.githubusercontent.com/anonymous/8f61a8733ed7fa41c4ea/raw/1e90fd2741bb6310582e3822f59927eb535f6c73/quotes.json and display available information in the list-like structure (table/list)
+ * Fetch quotes from source [quotes.json](https://gist.githubusercontent.com/anonymous/8f61a8733ed7fa41c4ea/raw/1e90fd2741bb6310582e3822f59927eb535f6c73/quotes.json) and display available information in the list-like structure (table/list)
  * Provide client-side pagination (up to 15 quotes per page)
  * Optionally: Provide way to filter between game and movie quotes
  * Optionally: Provide client-side search filter by the quote text
