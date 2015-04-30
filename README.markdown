@@ -60,5 +60,5 @@ You will need to implement the following functionality.
  * Blackjack - any possible hand value is exactly 21 point
  * Assume dealer stays on 17 (any hand value)
 
- For more rules on blackjack please refer to the [wiki]()
+ For more rules on blackjack please refer to the [wiki](http://en.wikipedia.org/wiki/Blackjack)
 
