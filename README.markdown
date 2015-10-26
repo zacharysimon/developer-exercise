@@ -1,4 +1,4 @@
-Please fork the repository, complete following exercises, either ruby and(or) javascript.<br />
+Please fork the repository, complete following exercises, both ruby and javascript.<br />
 When you are complete submit a pull request for review.
 
 If you have any questions feel free to email developers@benchprep.com
